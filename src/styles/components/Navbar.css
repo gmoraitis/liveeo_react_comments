@@ -1,0 +1,73 @@
+header a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 100 110px;
+    background-color: rgb(17, 18, 41);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: #f1f5f3;
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 80 600px;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 18px;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+#admin {
+    border: 1px solid #f8f5f5;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+#admin a {
+    color: #f1eeef;
+}
+
+#login {
+    padding: 0 !important;
+    margin: 0 15px 0 15px !important;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+#login a {
+    color: black !important;
+}

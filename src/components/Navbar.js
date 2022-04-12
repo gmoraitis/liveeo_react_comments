@@ -1,18 +1,20 @@
-import '../App.css'
+import { Link, NavLink } from "react-router-dom";
+import '../styles/components/Navbar.css'
 
 function Navbar() {
     return (
         <div>
-            <header>
-                <div id="brand"><a href="/">LiveEO</a></div>
+            <header className="header">
+                <div id="brand">
+                    <Link to="/">LiveEO</Link></div>
                 <nav>
                     <ul>
-                        <li><a href="/">Map</a></li>
-                        <li><a href="/">Tasks</a></li>
-                        <li><a href="/">Dashboard</a></li>
-                        <li id="comments"><a href="/">Comments</a></li>
-                        <li id="admin"><a href="/">Admin</a></li>
-                        <li id="login"><a href="/">L</a></li>
+                        <li><NavLink to="map">Map</NavLink></li>
+                        <li><NavLink to="tasks">Tasks</NavLink></li>
+                        <li><NavLink to="dashboard">Dashboard</NavLink></li>
+                        <li id="comments"><NavLink to="comments">Comments</NavLink></li>
+                        <li id="admin"><NavLink to="admin">Admin</NavLink></li>
+                        <li id="login"><NavLink to="login">L</NavLink></li>
                     </ul>
                 </nav>
             </header>
